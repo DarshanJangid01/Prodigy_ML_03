@@ -2,6 +2,7 @@
     This project uses a Support Vector Machine (SVM) to classify images of cats and dogs using deep features extracted from the VGG16 model.
 
 #Model Overview:
+    - **Python version**: This model uses the pyton version 3.12 as the later versions do not support tensorflow yet.
     - **Feature Extractor**: Pre-trained VGG16 (without top layer)
     - **Preprocessing**: Images loaded and resized using `tensorflow.keras.preprocessing.image`
     - **Dimensionality Reduction**: PCA to reduce feature dimensionality
